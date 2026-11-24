@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Save Image As PNG, JPG, WebP – Private & Open Source",
+  "short_name": "Save Image As",
+  "version": "0.1.0",
+  "description": "Right-click any image and save it as PNG, JPG or WebP. Converted locally on your device. No tracking, no ads, no data collection.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["contextMenus", "downloads"],
+  "optional_host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
