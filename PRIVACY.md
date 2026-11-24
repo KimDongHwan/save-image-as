@@ -11,4 +11,4 @@ This extension does not collect, store, sell or transmit any personal data.
   to read the image you selected.
 - You can revoke site access at any time from `chrome://extensions` → this extension → Details → Site access.
 
-Source code: <add GitHub URL>
+Source code: https://github.com/KimDongHwan/save-image-as
